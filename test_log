@@ -6,3 +6,5 @@ Jul 10 10:09:19 srv24-s-st postfix/cleanup[6537]: F1DB8DF04EF: message-id=<4FFBC
 Jul 10 10:09:19 srv24-s-st postfix/qmgr[3043]: F1DB8DF04EF: from=<oksana_b@kubometr-samara.ru>, size=11263, nrcpt=1 (queue active)
 Jul 10 10:09:21 srv24-s-st postfix/qmgr[3043]: 718F4DF04E9: from=<krasteplokomplekt@yandex.ru>, size=617940, nrcpt=1 (queue active)
 Jul 10 10:09:21 srv24-s-st postfix/smtp[6782]: 718F4DF04E9: to=<arsenya08@mail.ru>, relay=mxs.mail.ru[94.100.176.20]:25, delay=21, delays=21/0/0.02/0.14, dsn=5.0.0, status=bounced (host mxs.mail.ru[94.100.176.20] said: 550 Message was not accepted -- invalid mailbox.  Local mailbox arsenya08@mail.ru is unavailable: user not found (in reply to end of DATA command))
+Jul 10 10:09:09 srv24-s-st postfix/qmgr[3053]: 718F4DF04E9: removed
+Jul 10 10:20:19 srv24-s-st postfix/smtp[22692]: A8455DF046C: to=<ktm@kaluga.ru>, relay=smtp.kaluga.ru[62.148.128.4]:25, delay=6, delays=3.3/0/2.3/0.34, dsn=5.0.0, status=bounced (host smtp.kaluga.ru[62.148.128.4] said: 550 5.0.0 <ktm@kaluga.ru>... No such user (in reply to RCPT TO command))
